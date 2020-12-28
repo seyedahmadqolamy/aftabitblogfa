@@ -1,0 +1,151 @@
+/*
+Theme Name: 826
+Theme URI: http://aftabit.ir
+Author: mohsen
+Author mail: http://www.info@aftabit.ir
+Seo by: aftabit.ir
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {height:100%;margin:0px;padding:0px;}
+body {text-align:right;color:#fff;font: 11px Byekan,B yekan,Tahoma;padding:0px;margin:0px;background:#252b37 url("image/826-1.png")repeat;direction:rtl;}
+
+A, A:visited{color:#fff;text-decoration:none;}
+A:hover{color:#d85462;text-decoration:none;}
+
+img {max-width:100%;height:auto;border:0px;}
+
+@font-face {
+font-family: 'Byekan';
+src: url('fonts/BYekan.eot?#') format('eot'),  /* IE6-8 */
+url('fonts/BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+url('fonts/BYekan.ttf') format('truetype');  /* Saf3-5, Chrome4+, FF3.5, Opera 10+ */
+font-style:normal;
+font-weight:700;
+}
+
+::selection {background:#d85462;color:#fff;}
+::-moz-selection {background:#d85462;color:#fff;}
+
+#Avazak {width:970px;margin:20px auto 0 auto;padding:0px;}
+
+.line {clear:both;width:100%;border-top:1px solid #434a5a;border-bottom:1px solid #434a5a;box-shadow:0px 1px 5px #1f2630;height:1px;}
+
+#headerbox,#navbarbox {width:100%;margin:0px;padding:0px;}
+#header {width:970px;margin:0 auto;}
+#header .right {float:right;width:60%;text-align:right;}
+#header .h1 {font-size:34px;padding:20px 0;color:#d85462;margin:0px;}
+#header .desc {font-size:13px;color:#fff;margin-bottom:20px;}
+#header .left {float:left;width:35%;text-align:left;margin-top:30px;}
+#header .left input[type="text"] {height:30px;background-color:#21252e;color:#fff;border:0px;border-bottom:1px solid #434a5a;font:13px;margin-top:17px;border-top-right-radius:90px;border-bottom-right-radius:90px;padding:0 5px;width:100%;}
+#header .left input[type="submit"] {height:30px;background:#fdb465 url("image/826-4.png")no-repeat center;padding:30px;border:0px;border-radius:90px;}
+
+#navbarbox,#aboutbox {background:#be404b url("image/826-2.png")repeat;}
+#navbar {width:970px;margin:0 auto;color:#536a7c;padding:5px 0;font-size:13px;height:35px;line-height:35px;text-align:right;}
+#navbar .home a, #navbar .home a:visited {color:#fff;padding:5px 15px;background-color:#e56274;border-radius:5px;border:1px solid #d65260;}
+#navbar a, #navbar a:visited {color:#fff;padding:5px 15px;background-color:#ac3843;border:1px solid #a53740;border-radius:5px;}
+#navbar a:hover {background-color:#e56274;border:1px solid #d65260;}
+
+#content {width:755px;float:right;margin:0px;}
+
+#bodyposts {float:left;text-align:right;width:540px;overflow:hidden;margin:0px;padding:0px;}
+
+.post {padding:0px;margin-bottom:20px;background-color:#21252e;border:1px solid #434a5a;border-radius:5px;}
+
+.post .title {padding:10px;margin:0px;color:#fff;font-size:13px;background:#be404b url("image/826-2.png")repeat;border-top-right-radius:5px;border-top-left-radius:5px;}
+.post .title a, .post .title a:visited {color:#fff;}
+.post .title a:hover {color:#fdb465;}
+
+.post .Context {font-size:12px;font-family:tahoma;line-height:30px;margin:10px;overflow:hidden;}
+.post .Context a, .post .Context a:visited {color:#d85462;}
+.post .Context a:hover {color:#d85462;}
+
+.Context input[type="submit"] {height:27px;background-color:#be404b;border:solid 1px #9f2034;color:#fff;font-family:tahoma;}
+.Context input[type="text"],.Context input[type="password"] {width:50%;height:27px;background-color:#171c25;border:solid 1px #373c46;color:#fff;}
+
+.post .date {clear:both;color:#75818f;background-color:#36404c;margin:0px;padding:0px;font-family:tahoma;font-size:12px;height:25px;line-height:25px;text-align:center;}
+.post .date a, .post .date a:visited {color:#fff;}
+.post .date a:hover {color:#000;}
+.post .date .day {width:34%;display:inline-block;}
+.post .date .time {width:10%;display:inline-block;}
+.post .date .author {color:#fdb465;width:28.77%;display:inline-block;}
+.post .date .comment {background-color:#e56274;width:25%;display:inline-block;color:#fff;}
+.post .date .more {background:#fdb465 url("image/826-3.png")repeat;border-bottom-left-radius:5px;width:25%;display:inline-block;float:left;}
+
+.post .meta {background-color:#27323d;font-size:13px;border-radius:5px;margin:10px;padding:10px;}
+.post .meta a, .post .meta a:visited {color:#75818f;}
+.post .meta a:hover {color:#d85462;}
+
+
+#sidebar-r {float:right;width:200px;margin:0px;padding:0px;}
+#sidebar-l {float:left;width:200px;margin:0px;padding:0px;}
+
+.side {margin:0 0 20px 0;text-align:right;background-color:#21252e;border:1px solid #434a5a;border-radius:5px;padding:0px;color:#fff;overflow:hidden;}
+.h3 {height:40px;line-height:40px;color:#fff;background:#fdb465 url("image/826-3.png")repeat;border-bottom:3px solid #df754d;text-align:right;margin:0px;padding-right:10px;}
+.context-side {overflow:hidden;font-size:12px;font-family:tahoma;line-height:25px;margin:7px;}
+.context-side a, .context-side a:visited {color:#fff;}
+.context-side a:hover {color:#d85462;}
+
+.side-img {float:right;width:53px;height:53px;margin:0px 0px 10px 6px;background-color:#171c25;border:solid 1px #373c46;padding:0px;text-align:center;}
+.side-img img {width:47px;height:47px;margin:3px 0px;padding:0px;border:0px;}
+.side-img a, .side-img a:visited {margin:0px;}
+
+.link {clear:both;background:url('image/826-9.png')no-repeat right;padding-right:15px;line-height:25px;}
+.link span {float:left;background-color:#36404c;border-radius:4px;width:40px;font-size:11px;line-height:20px;text-align:center;color:#75818f;}
+
+#input input {width:100%;height:27px;background-color:#171c25;border:solid 1px #373c46;color:#fff;}
+#submit input,#submit2 input {width:60px;height:27px;background-color:#be404b;border:solid 1px #9f2034;color:#fff;font-family:tahoma;}
+#submit2 input {width:80px;}
+
+.commentlist {color:#000;background-color:#171c25;padding:10px;border-right:5px solid #be404b;margin-bottom:10px;}
+.commentlist a, .commentlist a:visited {color:#777;}
+.answer {background:#36404c;margin:20px 20px 0px 100px;padding:0 5px;line-height:25px;}
+
+.sendcomment {text-align:right;color:#fff;background-color:#36404c;border:solid 1px #4e5865;padding:10px;margin-bottom:20px;}
+.sendcomment input {width:200px;height:27px;background-color:#171c25;border:solid 1px #373c46;color:#000;font-family:tahoma;color:#fff;}
+.sendcomment textarea {height:200px;width:400px;background-color:#171c25;border:solid 1px #373c46;color:#fff;font-family:tahoma;font-size:9pt;}
+.sendcomment input[type="checkbox"] {width:20px;}
+.sendcomment input[name="commentcap"] {width:110px;text-align:center;}
+
+.pagination {margin:40px;font-familt:tahoma;font-size:12px;text-align:center;color:#000;}
+.pagination a {padding:6px 12px;background-color:#21252e;border:1px solid #434a5a;border-radius:90px;color:#fff;margin:0 2px;}
+.pagination a:hover {background:#be404b url("image/826-2.png")repeat;border:1px solid #d65260;color:#fff;margin:0 2px;}
+.current {padding:6px 12px;background:#be404b url("image/826-2.png")repeat;border:1px solid #d65260;color:#fff;border-radius:90px;}
+
+#aboutbox {float:left;width:100%;margin:0px;padding:20px 0;clear:both;}
+#about {width:970px;margin:0 auto;font-size:13px;color:#fff;}
+#about .logo {float:right;width:20%;}
+#about .logo img {border:5px solid #434a5a;border-radius:90px;box-shadow:0px 1px 5px #1f2630;}
+#about .logo img:hover{
+-moz-transition:all 0.2s ease-in-out;
+-o-transition:all 0.2s ease-in-out;
+-ms-transition:all 0.2s ease-in-out;	
+transition:all 0.2s ease-in-out;
+-ms-transform: rotate(270deg); /* IE 9 */
+-webkit-transform: rotate(350deg); /* Chrome, Safari, Opera */
+transform: rotate(40deg);max-width:100%;height:auto;
+}
+#about .text {float:left;width:78%;text-align:right;}
+
+#footer {float:left;width:100%;background:#21252e;margin:0px;padding:20px 0;clear:both;}
+#footer a, #footer a:visited {color:#d85462;}
+#footer span {color:#fdb465;}
+
+
+@media screen and (max-width:970px) {
+#Avazak, #header, #navbar, #about, #content, #bodyposts, #sidebar-r, #sidebar-l {width:100%;}
+}
+@media screen and (max-width:800px) {
+#about .text {float:left;width:50%;}
+#header .right {float:none;width:100%;text-align:Center;}
+#header .left {float:none;width:100%;padding-bottom:70px;margin:0px;}
+}
+@media screen and (max-width:600px) {
+#navbar, .post .date {font-size:9px;}
+}
+@media screen and (max-width:400px) {
+#navbar, .post .date, #about {font-size:7.5px;text-align:center;}
+}
